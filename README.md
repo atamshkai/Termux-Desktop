@@ -11,7 +11,7 @@ This is Mac Os Style Termux Xfce Desktop.Before you install it on android 12 and
 Paste this command to termux's terminal
 
 ```
-cd $HOME;wget https://raw.githubusercontent.com/atamshkai/Termux-Desktop/main/termux-desktop.sh && bash termux-desktop.sh
+pkg up -y && pkg i -y wget;cd $HOME;wget https://raw.githubusercontent.com/atamshkai/Termux-Desktop/main/termux-desktop.sh && bash termux-desktop.sh
 ```
 
 ## Termux 

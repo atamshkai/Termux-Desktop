@@ -9,10 +9,10 @@ echo "pulseaudio --start --exit-idle-time=-1; pacmd load-module module-native-pr
 rm -rf ~/.config 
 wget https://archive.org/download/atam-shkai-termux-desktop/termux-desktop.tar.xz
 tar -xvJf termux-desktop.tar.xz
-echo "termux-x11 :0 -xstartup 'dbus-launch --exit-with-session startxfce4' &>/dev/null" >>~/../usr/bin/start-desktop
-chmod +x ~/../usr/bin/start-desktop
-echo "pkill -f 'app_process / com.termux.x11'" >>~/../usr/bin/stop-desktop
-chmod +x ~/../usr/bin/stop-desktop
+echo "termux-x11 :0 -xstartup 'dbus-launch --exit-with-session startxfce4' &>/dev/null" >>~/../usr/bin/tm-x11
+chmod +x ~/../usr/bin/tm-x11
+echo "pkill -f 'app_process / com.termux.x11'" >>~/../usr/bin/stop-tm-x11
+chmod +x ~/../usr/bin/stop-tm-x11
 wget https://github.com/atamshkai/Termux-Desktop/raw/main/loader.apk
 mv loader.apk /data/data/com.termux/files/usr/libexec/termux-x11
 chmod +x /data/data/com.termux/files/usr/libexec/termux-x11/loader.apk

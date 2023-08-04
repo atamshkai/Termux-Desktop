@@ -11,7 +11,8 @@ wget https://archive.org/download/atam-shkai-termux-desktop/termux-desktop.tar.x
 tar -xvJf termux-desktop.tar.xz
 echo "termux-x11 :0 -xstartup 'dbus-launch --exit-with-session startxfce4' &>/dev/null" >>~/../usr/bin/start-desktop
 chmod +x ~/../usr/bin/start-desktop
-echo "pkill -f 'app_process / com.termux.x11' >>~/../usr/bin/stop-desktop
+echo "pkill -f 'app_process / com.termux.x11'" >>~/../usr/bin/stop-desktop
+chmod +x ~/../usr/bin/stop-desktop
 echo "Please Login Again"
 sleep 3
 exit

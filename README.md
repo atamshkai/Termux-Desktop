@@ -13,6 +13,17 @@ Paste this command to termux's terminal
 ```
 pkg up -y && pkg i -y wget;cd $HOME;wget https://raw.githubusercontent.com/atamshkai/Termux-Desktop/main/termux-desktop.sh && bash termux-desktop.sh
 ```
+### Start Desktop
+```
+start-desktop
+```
+
+### Stop Desktop 
+Ctrl + C
+OR
+```
+stop desktop
+```
 
 ## Termux 
 [Download](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk) 

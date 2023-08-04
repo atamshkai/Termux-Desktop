@@ -15,14 +15,14 @@ pkg up -y && pkg i -y wget;cd $HOME;wget https://raw.githubusercontent.com/atams
 ```
 ### Start Desktop
 ```
-start-desktop
+tm-x11 &>/dev/null
 ```
 
 ### Stop Desktop 
 Ctrl + C
 OR
 ```
-stop desktop
+stop-tm-x11
 ```
 
 ## Termux 

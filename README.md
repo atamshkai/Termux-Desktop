@@ -2,7 +2,7 @@
 
 This is Mac Os Style Termux Xfce Desktop.Before you install it on android 12 and 13,disable phantom process killer. 
 
-[Watch Video Here](https://youtu.be/UxmQSETvAOc) 
+[Here](https://github.com/atamshkai/Phantom-Process-Killer/tree/main) 
 
 ## Preview
 

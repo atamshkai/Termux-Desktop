@@ -15,9 +15,14 @@ Paste this command to termux's terminal
 pkg up -y && pkg i -y wget;cd $HOME;wget https://raw.githubusercontent.com/atamshkai/Termux-Desktop/main/termux-desktop.sh && bash termux-desktop.sh
 ```
 
-### Link SDCARD To Termux Desktop
+### Link STORAGE To Desktop
 ```
-ln -s /sdcard ~/Desktop/sdcard
+ln -s /sdcard ~/Desktop/Storage
+```
+
+### Link SDCARD To Desktop
+```
+ln -s /storage/sdcard-name ~/sdcard
 ```
 
 ### Start Desktop

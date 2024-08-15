@@ -22,7 +22,7 @@ ln -s /sdcard ~/Desktop/Storage
 
 ### Link SDCARD To Desktop
 ```
-ln -s /storage/sdcard-name ~/sdcard
+ln -s /storage/sdcard-name ~/Desktop/sdcard
 ```
 
 ### Start Desktop

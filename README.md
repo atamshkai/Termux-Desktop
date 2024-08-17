@@ -20,7 +20,7 @@ pkg up -y && pkg i -y wget;cd $HOME;wget https://raw.githubusercontent.com/atams
 ln -s /sdcard ~/Desktop/Storage
 ```
 
-### Link SDCARD To Desktop
+#### Link SDCARD To Desktop (Optional)
 ```
 ln -s /storage/sdcard-name ~/Desktop/sdcard
 ```

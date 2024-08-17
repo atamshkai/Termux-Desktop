@@ -47,7 +47,7 @@ tm-x11 &>/dev/null
 stop-tm-x11
 ```
 
-### Use Other Linux Distros Softwares On Termux Desktop (Optional)
+### Use Other Linux Distros Softwares On Termux Desktop (Experimental)
 
 ##### Example For PRoot Distros
 ```

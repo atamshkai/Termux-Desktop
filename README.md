@@ -50,6 +50,8 @@ stop-tm-x11
 ### Use Other Linux Distros Softwares On Termux Desktop (Experimental)
 
 ##### Example For PRoot Distros
+
+###### Open Terminal On Termux Desktop
 ```
 proot-distro login ubuntu --shared-tmp
 ```

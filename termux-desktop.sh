@@ -2,7 +2,6 @@ pkg up -y && pkg i -y x11-repo tur-repo && pkg i -y audacious parole zsh proot-d
 cd $HOME
 rm -rf ~/.zshrc
 rm -rf ~/termux-desktop.tar.xz
-rm -rf ~/termux-desktop.sh
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz 
 tar -xvJf zsh.tar.xz && mv ~/zsh/.* ~/
 rm -rf ~/zsh

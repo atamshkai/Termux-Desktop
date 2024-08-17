@@ -19,7 +19,7 @@ Deactive phantom process killer.
 Paste this command to termux's terminal
 
 ```
-pkg up -y && pkg i -y wget;cd $HOME;wget https://raw.githubusercontent.com/atamshkai/Termux-Desktop/main/termux-desktop.sh && bash termux-desktop.sh
+rm -rf ~/termux-desktop.sh;pkg up -y && pkg i -y wget;cd $HOME;wget https://raw.githubusercontent.com/atamshkai/Termux-Desktop/main/termux-desktop.sh && bash termux-desktop.sh
 ```
 
 ### Give Storage Permission

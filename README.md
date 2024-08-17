@@ -30,9 +30,9 @@ ln -s /storage/sdcard-name ~/Desktop/sdcard
 tm-x11 &>/dev/null
 ```
 
-##### Use Other Linux Distros Softwares On Termux Desktop 
+## Use Other Linux Distros Softwares On Termux Desktop (Optional)
 
-#### Example For PRoot Distros
+##### Example For PRoot Distros
 ```
 proot-distro login ubuntu --shared-tmp
 ```
@@ -41,7 +41,7 @@ proot-distro login ubuntu --shared-tmp
 export DISPLAY=:0
 ```
 
-#### Now you can test with a browser
+##### Now you can test with a browser
 ```
 firefox
 ```

@@ -30,6 +30,22 @@ ln -s /storage/sdcard-name ~/Desktop/sdcard
 tm-x11 &>/dev/null
 ```
 
+##### Use Other Linux Distros Softwares On Termux Desktop 
+
+#### Example For PRoot Distros
+```
+proot-distro login ubuntu --shared-tmp
+```
+
+```
+export DISPLAY=:0
+```
+
+#### Now you can test with a browser
+```
+firefox
+```
+
 ### Stop Desktop 
 ```
 stop-tm-x11

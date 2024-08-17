@@ -14,7 +14,7 @@ Deactive phantom process killer.
 
 ### To Do 
 
-#### (Use VPN if you are Myanmar)
+#### (Use VPN if you are in Myanmar)
 
 Paste this command to termux's terminal
 

@@ -31,10 +31,6 @@ tm-x11 &>/dev/null
 ```
 
 ### Stop Desktop 
-Ctrl + C
-
-OR
-
 ```
 stop-tm-x11
 ```

@@ -30,7 +30,7 @@ ln -s /storage/sdcard-name ~/Desktop/sdcard
 tm-x11 &>/dev/null
 ```
 
-## Use Other Linux Distros Softwares On Termux Desktop (Optional)
+### Use Other Linux Distros Softwares On Termux Desktop (Optional)
 
 ##### Example For PRoot Distros
 ```

@@ -22,6 +22,11 @@ Paste this command to termux's terminal
 pkg up -y && pkg i -y wget;cd $HOME;wget https://raw.githubusercontent.com/atamshkai/Termux-Desktop/main/termux-desktop.sh && bash termux-desktop.sh
 ```
 
+### Give Storage Permission
+```
+termux-setup-storage
+```
+
 ### Link STORAGE To Desktop
 ```
 ln -s /sdcard ~/Desktop/Storage

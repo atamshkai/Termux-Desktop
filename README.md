@@ -42,6 +42,11 @@ ln -s /storage/sdcard-name ~/Desktop/sdcard
 tm-x11 &>/dev/null
 ```
 
+### Stop Desktop 
+```
+stop-tm-x11
+```
+
 ### Use Other Linux Distros Softwares On Termux Desktop (Optional)
 
 ##### Example For PRoot Distros
@@ -56,11 +61,6 @@ export DISPLAY=:0
 ##### Now you can test with a browser
 ```
 firefox
-```
-
-### Stop Desktop 
-```
-stop-tm-x11
 ```
 
 ## Termux 

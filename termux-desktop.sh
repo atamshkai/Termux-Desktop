@@ -15,10 +15,6 @@ echo "termux-x11 :0 -xstartup 'dbus-launch --exit-with-session startxfce4' &>/de
 chmod +x ~/../usr/bin/tm-x11
 echo "pkill -f 'app_process / com.termux.x11'" >>~/../usr/bin/stop-tm-x11
 chmod +x ~/../usr/bin/stop-tm-x11
-wget https://github.com/atamshkai/Termux-Desktop/raw/main/loader.apk
-rm -rf /data/data/com.termux/files/usr/libexec/termux-x11/loader.apk
-mv loader.apk /data/data/com.termux/files/usr/libexec/termux-x11
-chmod +x /data/data/com.termux/files/usr/libexec/termux-x11/loader.apk
 echo "Please Login Again"
 sleep 3
 exit

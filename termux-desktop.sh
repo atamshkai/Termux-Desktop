@@ -9,7 +9,7 @@ chsh -s zsh
 echo "killall pulseaudio &>/dev/null" >>~/.zshrc 
 echo "pulseaudio --start --exit-idle-time=-1; pacmd load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" >>~/.zshrc 
 rm -rf ~/.config 
-wget https://archive.org/download/atamshkai/termux-desktop.tar.xz
+wget https://archive.org/download/termux-desktop-x11/termux-desktop.tar.xz
 tar -xvJf termux-desktop.tar.xz
 echo "termux-x11 :0 -xstartup 'dbus-launch --exit-with-session xfce4-session' &>/dev/null" >>~/../usr/bin/tm-x11
 chmod +x ~/../usr/bin/tm-x11
@@ -17,4 +17,4 @@ echo "pkill -f com.termux.x11" >>~/../usr/bin/stop-tm-x11
 chmod +x ~/../usr/bin/stop-tm-x11
 echo "Please Login Again"
 sleep 3
-exit
+exec exit

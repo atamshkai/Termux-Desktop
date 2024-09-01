@@ -65,6 +65,51 @@ export DISPLAY=:0
 firefox
 ```
 
+# Tsu-Desktop [Root Only]
+```
+pkg up -y;pkg i -y root-repo;pkg i -y tsu fakeroot
+```
+
+```
+echo "export PULSE_SERVER=127.0.0.1;env DISPLAY=:0 dbus-launch --exit-with-session xfce4-session &>/dev/null" >>~/../usr/bin/tsu-x11
+```
+
+```
+chmod +x ~/../usr/bin/tsu-x11
+```
+
+```
+termux-x11 :0 &
+```
+
+### Move termux-desktop.tar.xz file to tsu's home [You Can Also Install zsh]
+```
+tsu
+```
+
+```
+mv termux-desktop.tar.xz ~/ && cd $HOME
+```
+
+```
+tar -xvJf termux-desktop.tar.xz
+```
+
+### Start Tsu Desktop
+```
+tsu-x11 &>/dev/null
+```
+
+### Using Fakeroot For Terminated Softwares[Example]
+```
+fakeroot firefox
+```
+
+### Stop Tsu Desktop
+```
+pkill -f com.termux.x11
+```
+
 ## Termux 
 [Download](https://github.com/termux/termux-app/releases/tag/v0.118.1) 
 

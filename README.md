@@ -109,7 +109,6 @@ fakeroot firefox
 ```
 pkill -f com.termux.x11
 ```
-
 ## Termux 
 [Download](https://github.com/termux/termux-app/releases/tag/v0.118.1) 
 

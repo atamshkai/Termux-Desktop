@@ -1,4 +1,4 @@
-pkg up -y && pkg i -y x11-repo tur-repo && pkg i -y audacious parole zsh proot-distro pulseaudio termux-x11-nightly chromium firefox xfce4 xfce4-goodies feathernotes xfce-theme-manager xfce4-terminal xfce4-appmenu-plugin geany
+pkg up -y && pkg i -y x11-repo tur-repo && pkg i -y wget audacious parole zsh proot-distro pulseaudio termux-x11-nightly chromium firefox xfce4 xfce4-goodies feathernotes xfce-theme-manager xfce4-terminal xfce4-appmenu-plugin geany
 cd $HOME
 rm -rf ~/.zshrc
 rm -rf ~/termux-desktop.tar.xz

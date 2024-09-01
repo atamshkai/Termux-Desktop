@@ -116,4 +116,4 @@ pkill -f com.termux.x11
 [Download](https://github.com/termux/termux-x11/releases/tag/nightly) 
 
 ## Termux-x11 Custom Resolution
-1920:1080
+- 1920:1080

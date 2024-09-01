@@ -65,7 +65,7 @@ export DISPLAY=:0
 firefox
 ```
 
-# Tsu-Desktop [Root Only]
+## Tsu Desktop [Root Only]
 ```
 pkg up -y;pkg i -y root-repo;pkg i -y tsu fakeroot
 ```

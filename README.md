@@ -109,10 +109,22 @@ fakeroot firefox
 ```
 pkill -f com.termux.x11
 ```
+
+### Clean Permissions
+```
+rm -rf /data/data/com.termux/files/usr/tmp/*
+```
+
+```
+rm -rf /data/data/com.termux/files/usr/tmp/.*
+```
+
 ## Termux 
+
 [Download](https://github.com/termux/termux-app/releases/tag/v0.118.1) 
 
 ## Termux-x11 
+
 [Download](https://github.com/termux/termux-x11/releases/tag/nightly) 
 
 ## Termux-x11 Custom Resolution

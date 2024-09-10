@@ -1,4 +1,4 @@
-pkg up -y && pkg i -y x11-repo tur-repo && pkg i -y wget audacious parole zsh proot-distro pulseaudio termux-x11-nightly chromium firefox xfce4 xfce4-goodies feathernotes xfce-theme-manager xfce4-terminal xfce4-appmenu-plugin geany tmux pulseaudio-glib tmux alsa-utils ncpamixer
+pkg up -y && pkg i -y x11-repo tur-repo && pkg i -y wget audacious parole zsh proot-distro pulseaudio termux-x11-nightly chromium firefox xfce4 xfce4-goodies feathernotes xfce-theme-manager xfce4-terminal xfce4-appmenu-plugin geany tmux pulseaudio-glib alsa-utils ncpamixer
 cd $HOME
 wget https://mirrors.sdu.edu.cn/termux/termux-x11/pool/main/p/pavucontrol-qt/pavucontrol-qt_2.0.0_aarch64.deb
 chmod +x pavucontrol-qt_2.0.0_aarch64.deb

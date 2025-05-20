@@ -3,6 +3,7 @@ cd $HOME
 wget https://mirrors.sdu.edu.cn/termux/termux-x11/pool/main/p/pavucontrol-qt/pavucontrol-qt_2.0.0_aarch64.deb
 chmod +x pavucontrol-qt_2.0.0_aarch64.deb
 dpkg -i pavucontrol-qt_2.0.0_aarch64.deb
+pkg i -y pavucontrol-qt
 apt-get --fix-broken install
 mv ~/.zshrc ~/.zshrc.old
 rm -rf ~/termux-desktop.tar.xz

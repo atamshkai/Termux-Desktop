@@ -12,6 +12,7 @@ tar -xvJf zsh.tar.xz
 chsh -s zsh 
 echo "killall pulseaudio &>/dev/null" >>~/.zshrc 
 echo "pulseaudio --start --exit-idle-time=-1; pacmd load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" >>~/.zshrc 
+echo "load-module module-aaudio-sink" >>/data/data/com.termux/files/usr/etc/pulse/default.pa
 rm -rf ~/.config 
 wget https://github.com/atamshkai/Termux-Desktop/releases/download/Termux-Desktop/termux-desktop.tar.xz
 tar -xvJf termux-desktop.tar.xz

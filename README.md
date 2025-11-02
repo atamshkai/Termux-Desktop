@@ -119,6 +119,10 @@ rm -rf /data/data/com.termux/files/usr/tmp/*
 rm -rf /data/data/com.termux/files/usr/tmp/.*
 ```
 
+### Notice For Wallpapers Location
+
+/data/data/com.termux/files/home/.wallpapers
+
 ## Termux 
 
 [Download](https://github.com/termux/termux-app/releases/tag/v0.118.1) 

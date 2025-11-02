@@ -20,5 +20,7 @@ echo "termux-x11 :0 -xstartup 'dbus-launch --exit-with-session xfce4-session' &>
 chmod +x ~/../usr/bin/tm-x11
 echo "pkill -f com.termux.x11" >>~/../usr/bin/stop-tm-x11
 chmod +x ~/../usr/bin/stop-tm-x11
+rm -rf $PREFIX/share/X11/xkb
+ln -s $PREFIX/share/xkeyboard-config-2 $PREFIX/share/X11/xkb
 echo "Please Login Again"
 exit
